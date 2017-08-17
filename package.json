@@ -1,0 +1,31 @@
+{
+  "name": "react-redux-todolist-es6",
+  "version": "1.0.0",
+  "description": "Use ES6 and create-react-app to try redux again",
+  "private": true,
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dudulaopo833/React-Redux-TodoList-ES6.git"
+  },
+  "keywords": [
+    "redux",
+    "react-redux"
+  ],
+  "author": "Alma Ma",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dudulaopo833/React-Redux-TodoList-ES6/issues"
+  },
+  "homepage": "https://github.com/dudulaopo833/React-Redux-TodoList-ES6#readme",
+  "dependencies": {
+    "react": "^15.6.1",
+    "react-dom": "^15.6.1",
+    "react-scripts": "1.0.11"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
+  }
+}
