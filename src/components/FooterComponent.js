@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-import PropTypes from 'prop-types';
 import FilterLinkContainer from '../containers/FilterLinkContainer';
 import { visibilityFilters } from '../actions';
 

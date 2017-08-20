@@ -5,7 +5,7 @@
   "private": true,
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/dudulaopo833/React-Redux-TodoList-ES6.git"
+    "url": "git+https://github.com/dudulaopo833/react-redux-todolist-es6.git"
   },
   "keywords": [
     "redux",
