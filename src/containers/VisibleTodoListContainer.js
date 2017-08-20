@@ -6,7 +6,7 @@ const getVisibleTodos = (todos, filter) => {
 	switch(filter) {
 		case visibilityFilters.SHOW_ALL:
 			return todos;
-		case visibilityFilters.show_COMPLETED:
+		case visibilityFilters.SHOW_COMPLETED:
 			return todos.filter(t => t.completed);
 		case visibilityFilters.SHOW_ACTIVE:
 			return todos.filter(t => !t.completed);
