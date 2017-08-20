@@ -8,9 +8,13 @@ Use ES6 and create-react-app scaffold to start the project
 > yarn build ---> production
 > yarn test ---> test
 
+* Note:
+> container will pass its ownProps and its ownChildren to connectedComponent !!!
+
 * For pure function, please refer to [pure function todoList](https://github.com/dudulaopo833/React-Redux-ToDoList.git)
 
 * 遇到的坑
-> PropTypes.arrayOf(), PropTypes.shape()
+> PropTypes.arrayOf(), PropTypes.shape(),     
+> PropTypes.string.isRequired, PropTypes.bool.isRequired, PropTypes.node.isRequired, PropTypes.func.isRequired   
 
 

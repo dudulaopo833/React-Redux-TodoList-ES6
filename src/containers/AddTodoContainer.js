@@ -5,7 +5,7 @@ import { addTodoAction } from '../actions';
 class AddTodoComponent extends Component {
 	render(){
 		let input;
-		const { dispatch } = this.props;
+		const { dispatch } = this.props; // Must need this, it is not the same as pure function style
 		return (
 			<form 
 				onSubmit={e=>{
