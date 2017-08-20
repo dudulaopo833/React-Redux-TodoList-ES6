@@ -11,7 +11,7 @@ Use ES6 and create-react-app scaffold to start the project
 * Note:
 > container will pass its ownProps and its ownChildren to connectedComponent !!!
 
-* For pure function, please refer to [pure function todoList](https://github.com/dudulaopo833/React-Redux-ToDoList.git)
+* For pure function, please refer to [pure function todoList](https://github.com/dudulaopo833/react-redux-todolist.git)
 
 * 遇到的坑
 > PropTypes.arrayOf(), PropTypes.shape(),     
