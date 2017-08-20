@@ -3,10 +3,10 @@ import PropTypes from 'prop-types';
 
 class OneTodoComponent extends Component{
 	render(){
-		const { onClick, completed, text } = this.props;
+		const { onClick, completed, text, id } = this.props;
 		return (
 			<li 
-				onClick={onClick}
+				onClick={() => onClick(id)}
 				style={{
 					textDecoration: completed ? 'line-through' : 'none'
 				}}
@@ -21,7 +21,8 @@ class OneTodoComponent extends Component{
 OneTodoComponent.propTypes = {
 	onClick: PropTypes.func.isRequired,
 	completed: PropTypes.bool.isRequired,
-	text: PropTypes.string.isRequired
+	text: PropTypes.string.isRequired,
+	id: PropTypes.number.isRequired
 }
 
 export default OneTodoComponent;

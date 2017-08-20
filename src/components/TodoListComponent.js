@@ -12,7 +12,7 @@ class TodoListComponent extends Component {
 						<OneTodoComponent 
 							key={todo.id}
 							{...todo}
-							onClick={()=>onTodoClick(todo.id)}
+							onClick={onTodoClick}
 						/>
 					);
 				})}
